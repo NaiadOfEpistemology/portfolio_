@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tanvi V R Medapati - Resume</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <button id="theme-toggle">Dark Mode</button>
+
+  <header>
+    <h1>Tanvi V R Medapati</h1>
+    <p>Hyderabad, India | +91 8466993344 | medapatitanvi@gmail.com | <a href="Tanvi V R Medapati Profile.docx">Resume</a></p>
+    <script>
+      function typeEffect(element, speed = 100) {
+        const text = element.textContent;
+        element.textContent = '';
+        let i = 0;
+        const timer = setInterval(() => {
+          if (i < text.length) {
+            element.textContent += text.charAt(i);
+            i++;
+          } 
+          else {
+            clearInterval(timer);
+          }
+        }, speed);
+      }
+      
+      window.addEventListener('DOMContentLoaded', () => {
+        const header = document.querySelector('header h1');
+        typeEffect(header, 80);
+      });
+      
+    </script>
+  </header>
+
+  <section class="summary">
+    <h2>Professional Summary</h2>
+    <p>Computer Science student at MRCET (CGPA: 9.35) with experience in software development, reverse engineering, AI, and web technologies. Passionate about creating scalable solutions and collaborating in dynamic environments.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>Languages: Python, Java, C, JavaScript, SQL, HTML, CSS, React</li>
+      <li>Tools: Flutter, Ghidra, Git, GitHub, Linux (Kali and other distros)</li>
+      <li>Soft Skills: Communication, Problem-solving, Adaptability</li>
+    </ul>
+  </section>
+  <section>
+  <h2 class="collapsible">Projects</h2>
+  <div class="content">
+    <ul>
+      <li><strong>Inventory System:</strong> JSP & JDBC-based app for inventory tracking and stock management. Allows PDF bill generation.</li>
+      <li><strong>Customer Mgmt System:</strong> Google Apps Script + JS for dynamic forms and data collection.</li>
+      <li><strong>Learning Repository:</strong> Course listing and tutorial platform with HTML, CSS & JS.</li>
+    </ul>
+  </div>
+</section>
+  <section>
+    <h2>Experience</h2>
+    <p><strong>Freelance Proofreader & Writer</strong> (Aug 2023 – Present)</p>
+    <ul>
+      <li>Created and updated academic content for CSE faculty</li>
+      <li>Enhanced learning resources with clarity and accuracy</li>
+      <li>Wrote different genres of screenplays, stories</li>
+      <li>Proofread manuscripts for grammatical and structural mistakes</li>
+    </ul>
+    <p><strong>AI Intern at Swecha Telangana</strong> (Jun 2025 – Present)</p>
+    <ul>
+      <li>Contributing to the development of VISWAM.ai</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <ul>
+      <li><strong>B.Tech CSE:</strong> MRCET (2023–2027) – CGPA: 9.35</li>
+      <li><strong>Intermediate:</strong> Narayana Junior College – 97.8%</li>
+      <li><strong>Class X:</strong> Narayana High School – 10 CGPA</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Certifications & Achievements</h2>
+    <ul>
+      <li><a href="SwayamCertificate.jpg">Programming in Python (SWAYAM CEC)</a>, <a href="Programming in Java.pdf">Programming in Java (NPTEL)</a>, <a href="NLP.pdf">NLP (TechA & Infosys)</a></li>
+      <li>C1 Advanced English (Cambridge)</li>
+      <li>Hackathon Winner (2024, 2025), Debate Runner-up (2024)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Languages & Interests</h2>
+    <p><strong>Languages:</strong> English, Telugu, Hindi</p>
+    <p><strong>Hobbies:</strong> Cycling, Cooking, Story Writing</p>
+  </section>
+
+  <footer>
+    <p><a href="tanvi v r medapati.jpg">Tanvi V R Medapati</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
