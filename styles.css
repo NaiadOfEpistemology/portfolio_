@@ -39,6 +39,7 @@
   h1 {
     margin: 0;
     font-size: 2.6rem;
+    text-align: center;
   }
   
   h2 {
@@ -90,4 +91,11 @@
     --sky-tint: #507DBC;
     --misty-blue: #BBD1EA;
   }
-  
+#imgleft {
+    float: left;
+    top:16px;
+    left:16px;
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
